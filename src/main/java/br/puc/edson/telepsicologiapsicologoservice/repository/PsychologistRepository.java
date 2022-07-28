@@ -1,0 +1,15 @@
+package br.puc.edson.telepsicologiapsicologoservice.repository;
+
+import br.puc.edson.telepsicologiapsicologoservice.model.Patient;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface PsychologistRepository extends MongoRepository<Patient, String> {
+
+    Optional<Patient> findByEmail(String email);
+
+    Optional<Patient> findByCpf(String cpf);
+}
