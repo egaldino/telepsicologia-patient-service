@@ -1,7 +1,7 @@
 package br.puc.edson.telepsicologiapsicologoservice.service;
 
 import br.puc.edson.telepsicologiapsicologoservice.model.Patient;
-import br.puc.edson.telepsicologiapsicologoservice.repository.PsychologistRepository;
+import br.puc.edson.telepsicologiapsicologoservice.repository.PatientRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class PatientService {
 
-    private final PsychologistRepository repository;
+    private final PatientRepository repository;
 
     public List<Patient> listAll() {
         return repository.findAll();

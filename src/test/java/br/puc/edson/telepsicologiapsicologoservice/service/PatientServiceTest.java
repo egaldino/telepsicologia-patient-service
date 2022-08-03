@@ -1,7 +1,7 @@
 package br.puc.edson.telepsicologiapsicologoservice.service;
 
 import br.puc.edson.telepsicologiapsicologoservice.model.Patient;
-import br.puc.edson.telepsicologiapsicologoservice.repository.PsychologistRepository;
+import br.puc.edson.telepsicologiapsicologoservice.repository.PatientRepository;
 import org.jeasy.random.EasyRandom;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -19,7 +19,7 @@ import static org.mockito.Mockito.when;
 class PatientServiceTest {
 
     @Mock
-    private PsychologistRepository repository;
+    private PatientRepository repository;
 
     @InjectMocks
     private PatientService service;
