@@ -1,9 +1,9 @@
-package br.puc.edson.telepsicologiapsicologoservice.api;
+package br.puc.edson.telepsicologiapacienteservice.api;
 
 
-import br.puc.edson.telepsicologiapsicologoservice.dto.PatientDto;
-import br.puc.edson.telepsicologiapsicologoservice.mapper.PatientMapper;
-import br.puc.edson.telepsicologiapsicologoservice.service.PatientService;
+import br.puc.edson.telepsicologiapacienteservice.dto.PatientDto;
+import br.puc.edson.telepsicologiapacienteservice.mapper.PatientMapper;
+import br.puc.edson.telepsicologiapacienteservice.service.PatientService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

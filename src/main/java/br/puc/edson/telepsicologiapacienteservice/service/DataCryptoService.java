@@ -1,4 +1,4 @@
-package br.puc.edson.telepsicologiapsicologoservice.service;
+package br.puc.edson.telepsicologiapacienteservice.service;
 
 import com.amazonaws.encryptionsdk.AwsCrypto;
 import com.amazonaws.encryptionsdk.CryptoResult;
@@ -23,7 +23,6 @@ public class DataCryptoService {
 
     public String encrypt(String plaintext){
         if(StringUtils.isBlank(plaintext)) return plaintext;
-
 
         final Map<String, String> context = Collections.singletonMap("Telemedicina", "Auth");
 

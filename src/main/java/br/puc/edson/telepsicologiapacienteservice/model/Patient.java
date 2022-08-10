@@ -1,4 +1,4 @@
-package br.puc.edson.telepsicologiapsicologoservice.model;
+package br.puc.edson.telepsicologiapacienteservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

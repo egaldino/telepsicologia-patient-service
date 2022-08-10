@@ -1,4 +1,4 @@
-package br.puc.edson.telepsicologiapsicologoservice.config;
+package br.puc.edson.telepsicologiapacienteservice.config;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;

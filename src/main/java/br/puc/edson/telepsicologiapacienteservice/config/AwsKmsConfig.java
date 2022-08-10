@@ -1,4 +1,4 @@
-package br.puc.edson.telepsicologiapsicologoservice.config;
+package br.puc.edson.telepsicologiapacienteservice.config;
 
 import com.amazonaws.encryptionsdk.AwsCrypto;
 import com.amazonaws.encryptionsdk.kms.KmsMasterKeyProvider;

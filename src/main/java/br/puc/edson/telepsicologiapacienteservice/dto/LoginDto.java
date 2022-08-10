@@ -1,4 +1,4 @@
-package br.puc.edson.telepsicologiapsicologoservice.dto;
+package br.puc.edson.telepsicologiapacienteservice.dto;
 
 import lombok.Data;
 

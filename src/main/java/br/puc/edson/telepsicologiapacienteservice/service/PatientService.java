@@ -1,7 +1,7 @@
-package br.puc.edson.telepsicologiapsicologoservice.service;
+package br.puc.edson.telepsicologiapacienteservice.service;
 
-import br.puc.edson.telepsicologiapsicologoservice.model.Patient;
-import br.puc.edson.telepsicologiapsicologoservice.repository.PatientRepository;
+import br.puc.edson.telepsicologiapacienteservice.model.Patient;
+import br.puc.edson.telepsicologiapacienteservice.repository.PatientRepository;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package br.puc.edson.telepsicologiapsicologoservice;
+package br.puc.edson.telepsicologiapacienteservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
