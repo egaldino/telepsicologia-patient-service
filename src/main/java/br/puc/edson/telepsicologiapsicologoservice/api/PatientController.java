@@ -30,7 +30,7 @@ public class PatientController {
     }
 
     @GetMapping("/{cpf}")
-    public ResponseEntity<PatientDto> findByCrp(@PathVariable String cpf) {
+    public ResponseEntity<PatientDto> findByCpf(@PathVariable String cpf) {
         return service.findByCpf(cpf)
                 .map(PatientMapper.INSTANCE::modelToDto)
                 .map(ResponseEntity::ok)
